@@ -8,8 +8,63 @@
 
 body {
   font-family: "Roboto Mono", monospace;
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  /* margin: 0 130px; */
+}
+.top-container,
+.sign-up-btn,
+header,
+footer,
+a {
+  color: #f9faf8;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
+}
+
+.sign-up-btn{
+  font-size: 1.2em;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 11px;
+  background-color: #3882f6;
+  width: 100px; 
+  padding: 8px;
+}
+
+header {
+  display: flex;
+  margin: 15px 0 50px 0;
+  justify-content: space-between;
+}
+
+header > strong {
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+header > a{
+  font-size: 0.8em;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.top-head{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  max-height: 300px;
+  width: 700px;
+}
+
+main {
+  background-color: #f9faf8;
 }
